@@ -7,11 +7,63 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
+# The site title and description; used in feeds by default.
+title = "CookieT"
+description = "Welcome to my small webpage"
+
+# The default site author.
+author = "CookieT"
+
+# The default language; used in feeds.
+default_language = "en"
+
+# Configuration of the Markdown rendering
 [markdown]
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+# When set to "true", all code blocks are highlighted.
 highlight_code = true
+
+# The theme to use for code highlighting.
+# See below for list of allowed values.
+highlight_theme = "base16-ocean-dark"
 
 [extra]
 # Put all your custom variables here
 theme = "kita"
+
+# The profile on home page.
+[extra.profile]
+name = " "
+bio = ""
+# The URL of avatar.
+avatar_url = "images/Profilepicture.jpeg"
+# Invert color in dark mode.
+#avatar_invert = true
+
+# The social icons below the profile on the home page.
+# The `name` should be the file name of static/icons/*.svg or the icon name of https://simpleicons.org/
+[[extra.profile.social]]
+name = "github"
+url = "https://github.com/CookieThump"
+
+[[extra.profile.social]]
+name = "twitter"
+url = "https://x.com/CookieT910"
+
+[[extra.profile.social]]
+name = "discord"
+url = ".cookiet"
+
+# The top menu.
+[[extra.menu]]
+name = "Home"
+url = "$BASE_URL"
+
+[[extra.menu]]
+name = "Contact"
+url = "$BASE_URL/contact"
+
+# The page footer options.
+[extra.footer]
+since = 2024
+license = "CC BY-NC-ND 4.0"
+license_url = "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.txt"
