@@ -22,19 +22,47 @@
     {% if config.extra.profile.social %}
     <nav class="flex justify-start space-x-3 dark:invert">
       {% for social in config.extra.profile.social %}
-      <a
-        class="primary-link h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat]"
-        style="--url: url({{ macros::get_social_icon(icon=social.name) }})"
-        href="{{ social.url | replace(from=`$BASE_URL`, to=config.base_url) | safe  }}"
-        target="_blank"
-        rel="{% if social.name == `rss` %}alternate{% else %}me{% endif %}"
-      >
-        {{ social.name }}
-      </a>
+        {% if social.name == `discord` %}
+          <div
+            class="cursor-pointer relative group primary-link h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat]"
+            style="--url: url({{ macros::get_social_icon(icon=social.name) }})"
+            onclick="toggleBubble(this)"
+          >
+          {{ social.name }}
+          <!-- Sprechblase -->
+          <div
+            class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden w-36 rounded bg-gray-800 p-2 text-center text-sm text-white opacity-0 transition-all duration-200 group-hover:block group-hover:opacity-100"
+          >
+          .cookiet
+          <div class="absolute left-1/2 top-full -translate-x-1/2 border-4 border-transparent border-t-gray-800"></div>
+          </div>
+        {% else %}
+          <a
+            class="primary-link h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat]"
+            style="--url: url({{ macros::get_social_icon(icon=social.name) }})"
+            href="{{ social.url | replace(from=`$BASE_URL`, to=config.base_url) | safe  }}"
+            target="_blank"
+            rel="{% if social.name == `rss` %}alternate{% else %}me{% endif %}"
+          >
+          {{ social.name }}
+          </a>
+      {% endif %}
       {% endfor %}
     </nav>
     {% endif %}
   </div>
+  <script>
+  function toggleBubble(element) {
+    const bubble = element.querySelector('div');
+    if (bubble.classList.contains('hidden')) {
+      bubble.classList.remove('hidden', 'opacity-0');
+      bubble.classList.add('opacity-100');
+    } else {
+      bubble.classList.add('hidden', 'opacity-0');
+      bubble.classList.remove('opacity-100');
+    }
+  }
+  </script>
   {% endif %}
 </div>
 {% endif %}
