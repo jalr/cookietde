@@ -60,7 +60,7 @@ url = "$BASE_URL"
 
 [[extra.menu]]
 name = "Contact"
-url = "$BASE_URL/contact"
+url = "$BASE_URL/contact.html"
 
 # The page footer options.
 [extra.footer]
