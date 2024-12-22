@@ -1,0 +1,42 @@
+                                                                         
+        ,-----.              ,--.    ,--.      ,--------.    ,--.        
+       '  .--./ ,---.  ,---. |  |,-. `--' ,---.'--.  .--'  ,-|  | ,---.  
+       |  |    | .-. || .-. ||     / ,--.| .-. :  |  |    ' .-. || .-. :       
+       '  '--'\' '-' '' '-' '|  \  \ |  |\   --.  |  |.--.\ `-' |\   --. 
+        `-----' `---'  `---' `--'`--'`--' `----'  `--''--' `---'  `----' 
+                                                                         
+
+     The humans.txt file explains the team and technology behind this site.    
+
+_______________________________________________________________________________
+
+PEOPLE
+
+This website was hand-crafted by:
+
+Cookie Thumper
+Penetration Tester
+https://www.cookiet.de/
+
+Jalr
+Keyboard Magican
+
+_______________________________________________________________________________
+
+TECHNOLOGY
+
+Netlify
+https://www.netlify.com/
+
+Zola
+https://www.getzola.org/
+
+KiTa Template
+https://github.com/st1020/kita/
+
+Github
+https://github.com/
+
+Tailwind
+https://tailwindcss.com/
+
