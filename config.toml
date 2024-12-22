@@ -56,11 +56,11 @@ url = ".cookiet"
 # The top menu.
 [[extra.menu]]
 name = "Home"
-url = "$BASE_URL"
+url = "/"
 
 [[extra.menu]]
 name = "Contact"
-url = "$BASE_URL/contact"
+url = "/contact"
 
 # The page footer options.
 [extra.footer]
