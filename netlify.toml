@@ -15,4 +15,4 @@ ZOLA_VERSION = "0.19.2"
 # `$DEPLOY_PRIME_URL`.
 
 [context.deploy-preview]
-command = "zola build --base-url $DEPLOY_PRIME_URL"
+command = 'BUILTS_OPTS="--base-url $DEPLOY_PRIME_URL" npm run build'
