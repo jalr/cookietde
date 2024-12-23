@@ -24,6 +24,7 @@ contact_form_message = "Message"
 contact_form_send = "Send"
 
 [languages.de]
+title = "CookieT"
 description = "Willkommen auf meiner kleinen Website"
 
 [languages.de.translations]
