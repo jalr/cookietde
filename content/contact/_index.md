@@ -1,4 +1,4 @@
 +++
-title = "Contact"
+title = "Contact me:"
 template = "contact.html"
 +++
