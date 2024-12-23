@@ -17,8 +17,20 @@ author = "CookieT"
 # The default language; used in feeds.
 default_language = "en"
 
+[languages.en.translations]
+contact_form_name = "Name"
+contact_form_email = "Email address"
+contact_form_message = "Message"
+contact_form_send = "Send"
+
 [languages.de]
 description = "Willkommen auf meiner kleinen Website"
+
+[languages.de.translations]
+contact_form_name = "Name"
+contact_form_email = "E-Mail Adresse"
+contact_form_message = "Nachricht"
+contact_form_send = "Absenden"
 
 # Configuration of the Markdown rendering
 [markdown]
