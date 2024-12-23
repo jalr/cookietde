@@ -22,6 +22,8 @@ contact_form_name = "Name"
 contact_form_email = "Email address"
 contact_form_message = "Message"
 contact_form_send = "Send"
+menu_1home = "Home"
+menu_contact = "Contact"
 
 [languages.de]
 title = "CookieT"
@@ -32,6 +34,8 @@ contact_form_name = "Name"
 contact_form_email = "E-Mail Adresse"
 contact_form_message = "Nachricht"
 contact_form_send = "Absenden"
+menu_1home = "Startseite"
+menu_contact = "Kontakt"
 
 # Configuration of the Markdown rendering
 [markdown]
@@ -70,13 +74,9 @@ name = "discord"
 url = ".cookiet"
 
 # The top menu.
-[[extra.menu]]
-name = "Home"
-url = "/"
-
-[[extra.menu]]
-name = "Contact"
-url = "/contact"
+[extra.menu]
+1home.url = "/"
+contact.url = "/contact"
 
 # The page footer options.
 [extra.footer]
