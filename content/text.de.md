@@ -1,12 +1,12 @@
 +++
-title = "Looking for employement!"
+title = "Job gesucht!"
 date = "2024-12-22"
 description = "whoami"
 +++
-## Awesome, that you found my site!
-## My name is CookieT also known as CookieThumper...
+## Super, dass du meine Seite gefunden hast!
+## Hi, ich bin CookieT auch bekannt als CookieThumper...
 
-[TLDR](/TLDR)
+[TLDR](/de/TLDR)
 
 ... seit meinen Jugendjahren bin ich fasziniert von IT-Sicherheit und habe gleich nach meinem Abitur ein Informatik Studium begonnen. Während meines Informatik-Studiums fokussierte ich mich in meinem Bachelor erst teilweise, anschließend in meinem Masterstudiengang hauptsächlich auf offensive IT-Sicherheit. Zusätzlich begleitet mich der Spaß am hacken auch in meiner Freizeit.
 
@@ -24,6 +24,8 @@ Nach langer Selbstreflektion auf meiner ersten Defcon habe ich festgestellt, das
 
 Doch der Berufseinstieg als Penetrationstester ohne OSCP und ohne Berufserfahrung ist nicht leicht. Deshalb habe ich meine ehemalige Arbeitsstelle im Juli 2024 beendet um den OSCP im Eigenstudium abzuschließen. Die abschließende Prüfung des Kurses wird Mitte Januar sein. Somit möchte ich ab 01. Februar 2025 wieder in die Berufswelt einsteigen und mich nach neuen Herausforderungen umzusehen.
 
-Interessiert? Bitte [kontaktiere mich](/contact) gerne!
+Interessiert? Bitte [kontaktiere mich](/de/contact) gerne!
 
-You can also visit this page in the [darknet](http://cookietdohwq5inwylwdtqz3avwdqro56f5p7tbgbsmbxschezp57yqd.onion).
+
+
+Besuche diese Seite gerne auch im [darknet](http://cookietdohwq5inwylwdtqz3avwdqro56f5p7tbgbsmbxschezp57yqd.onion).
